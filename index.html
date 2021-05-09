@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>myblood.com</title>
+    <style type="text/css">
+		body
+		{
+			background-image: url(http://img.picturequotes.com/2/680/679181/blood-donation-quote-6-picture-quote-1.jpg);
+		    background-repeat: no-repeat;
+		    background-position: left;
+		    background-attachment: fixed;
+		}
+		.nav_bar
+		{
+			 overflow: hidden;
+		     background-color:black;
+		     position: fixed;
+		     top: 0;
+		     left: 0;
+		     width: 100%;
+		     height: 35px;
+		     padding: 5px;
+		}
+		.nav_bar a {
+		  float: left;
+		  display: block;
+		  color: #f2f2f2;
+		  text-align: center;
+		  padding: 14px 16px;
+		  text-decoration: none;
+		  font-size: 17px;
+		}
+		.nav_bar #tit:hover {
+		   color: red;
+		   background-color: black;
+		}
+		.nav_bar a:hover {
+		  background: #ddd;
+		  color: black;
+		}
+		.nav_bar #tit
+		{
+			font-size: 20px;
+			font-family: "Times New Roman", Times,serif;
+			color: red;
+			margin-left: 260px;
+		}
+		.box
+		{
+			width: 50%;
+			height: 50%;
+			float: right;
+			margin-top: 150px;
+			padding: 40px;
+			border-radius: 40px;
+			background-color: #c2c2d6;
+		}
+		button
+		{
+			width: 100%;
+			height: 50px;
+			border-radius: 40px;
+			margin-bottom: 40px;
+			font-size: 20px;
+			font-family: fantasy;
+		}
+		button:hover
+		{
+			background-color: red;
+			color: white;
+		}
+		.box:hover
+		{
+			background-color: #a3a3c2;
+		}
+    </style>
+</head>
+<body>
+       <div class="nav_bar">
+       	<a href="index.html">Home</a>
+       	<a href="#">Login</a>
+       	<a href="about.html">About</a>
+       	<a id="tit">DONATING MONEY IS GREAT, BUT DONATING BLOOD IS EVEN BETTER</a>
+       </div>  
+       <div class="box">
+       	    <button type="button"  onclick="location.href='register.html'">Request Blood</button>
+       	    <button type="button"  onclick="location.href='donar.html'">Donate Blood</button>
+       	    <button type="button"  onclick="location.href='recent_donar.html'">Recent Donar</button>
+       	    <button type="button"  onclick="location.href='status.html'">Blood status</button>
+       </div>
+</body>
+</html>

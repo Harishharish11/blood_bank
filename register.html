@@ -1,0 +1,170 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>myblood.com</title>
+    <style type="text/css">
+	     	body
+			{
+				background-image: url(http://img.picturequotes.com/2/680/679181/blood-donation-quote-6-picture-quote-1.jpg);
+			    background-repeat: no-repeat;
+			    background-position: left;
+			    background-attachment: fixed;
+			}
+			.nav_bar
+			{
+				 overflow: hidden;
+			     background-color:black;
+			     position: fixed;
+			     top: 0;
+			     left: 0;
+			     width: 100%;
+			     height: 35px;
+			     padding: 5px;
+			}
+			.nav_bar a {
+			  float: left;
+			  display: block;
+			  color: #f2f2f2;
+			  text-align: center;
+			  padding: 14px 16px;
+			  text-decoration: none;
+			  font-size: 17px;
+			}
+			.nav_bar #tit:hover {
+			   color: red;
+			   background-color: black;
+			}
+			.nav_bar a:hover {
+			  background: #ddd;
+			  color: black;
+			}
+			.nav_bar #tit
+			{
+				font-size: 20px;
+				font-family: "Times New Roman", Times,serif;
+				color: red;
+				margin-left: 260px;
+			}
+			.box
+			{
+				width: 50%;
+				height: 500px;
+				float: right;
+				margin-top: 100px;
+				padding: 40px;
+				border-radius: 40px;
+				background-color: #c2c2d6;
+				text-align: center;
+			}
+			button
+			{
+				width: 100%;
+				height: 50px;
+				border-radius: 40px;
+				margin-bottom: 40px;
+				font-size: 20px;
+				font-family: fantasy;
+				margin-top: 80px;
+			}
+			button:hover
+			{
+				background-color: red;
+				color: white;
+			}
+			.box:hover
+			{
+				background-color: #a3a3c2;
+				;
+			}
+			table
+			{
+				width: 80%;
+				margin-top: 50px;
+			}
+			td
+			{
+				width: 40px;
+				font-size: 30px;
+				
+			}
+			#slt
+			{
+				border-radius: 10px;
+				width: 200px;
+				height: 25px;
+			}
+			input
+			{
+				width: 100%;
+				height: 25px;
+				border-radius: 10px;
+			}
+    </style>
+</head>
+<body>
+       <div class="nav_bar">
+       	<a href="index.html">Home</a>
+       	<a href="#">Login</a>
+       	<a href="about.html">About</a>
+       	<a id="tit">DONATING MONEY IS GREAT, BUT DONATING BLOOD IS EVEN BETTER</a>
+       </div>  
+       <div class="box">
+       	   <h2>Register for Requesting Blood</h2>
+       	   <center>
+       	    <form  name="register_form">
+            <table >
+		              <tr>
+		                <td>Your name</td>
+		                <td> <input type="text"></td>
+		              </tr>
+
+		              <tr>
+		                <td>Roll Number</td>
+		                <td> <input type="text"></td>
+		              </tr>
+
+		              <tr>
+		                <td>Your E-mail </td>
+		                <td> <input type="email" value="          @gmail.com"></td>
+		              </tr>
+
+		              <tr>
+		                <td>Phone Number</td>
+		                <td> <input type="Number"></td>
+		              </tr>
+		              <tr>
+		                <td><label for="gender">Gender</label> </td>
+		                 <td>
+		                    <select id="slt">
+		                       <option value="Male">MALE</option>
+		                       <option value="FEMALE">FEMALE</option>
+		                   </select>
+		                 </td>  
+		               </tr>
+		               <tr>
+		                 <td>College Name</td>
+		                 <td> <input type="text"></td>
+		              </tr>
+		              <tr>
+		                <td><label>Blood Group</label> </td>
+		                 <td>
+		                    <select id="slt" >
+		                       <option value="A-">A-</option>
+		                       <option value="A+">A+</option>
+		                       <option value="O-">B-</option>
+		                       <option value="O+">B+</option>
+		                       <option value="B-">AB-</option>
+		                       <option value="B+">AB+</option>
+		                       <option value="AB-">O-</option>
+		                       <option value="AB-">O+</option>
+		                   </select>
+		                 </td>  
+		               </tr>
+            </table>
+            </form>
+            <button type="button" onclick="location.href='success.html'" >Submit</button>
+        </center>
+       </div>
+</body>
+</html>
